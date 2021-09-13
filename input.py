@@ -209,13 +209,12 @@ while True:
                 name.append(input("제품명 : "))
                 name.append(data)
                 print(name)
+                break
             elif b == "N" or b == "n":
                 break
             break
 
-    if b == "N" or b == "n":
-        print("수고하셨습니다.")
-        break
+    break
 
     '''
     a = input("데이터를 수정하시겠습니까? (Y/N) : ")
