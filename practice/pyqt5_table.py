@@ -7,7 +7,7 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        btn = QPushButton("이건 어디에 생성될까", self)
+        btn = QPushButton("Table_1", self)
 
         a = self.tableWidget = QTableWidget() # Table 생성
         self.tableWidget.setRowCount(20) # Table 행의 수
