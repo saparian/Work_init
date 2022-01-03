@@ -28,6 +28,7 @@ class Exam(QMainWindow):
         file_new.addAction(new_txt)
         file_new.addAction(new_py)
 
+
         # 메뉴 추가
         menu_file.addMenu(file_new)
         menu_file.addAction(file_exit)
